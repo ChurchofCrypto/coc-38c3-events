@@ -4,7 +4,7 @@
 A practical workshop on secure key generation using [Keyfork](https://git.distrust.co/public/keyfork) - a modular toolchain for generating and managing cryptographic keys offline. Learn how to create deterministic keys from BIP-0039 mnemonics while understanding the principles of entropy collection and secure key management.
 
 ## Workshop Details
-- **Duration**: 2 hours
+- **Duration**: 1.5 hours
 - **Time**: 13:00
 - **Location**: Church of Cryptography Assembly, Milliways
 - **Format**: Interactive Workshop
@@ -15,14 +15,14 @@ A practical workshop on secure key generation using [Keyfork](https://git.distru
 - USB drive for AirgapOS installation
 
 ## Materials
-- OpenPGP smart cards
+- OpenPGP smart cards (nitrokey, yubikey, etc.)
 - Laptop
 
 ## Setup Instructions
 1. Download AirgapOS Code from https://git.distrust.co/public/airgap
 2. Build AirgapOS from source
-3. Flash AirgapOS to USB drive
-4. Boot your laptop from the USB drive
+3. Flash AirgapOS to SD Card (USB drive also works)
+4. Boot your laptop from the SD Card
 
 ## Workshop Topics
 - Understanding entropy and key generation
@@ -37,4 +37,4 @@ A practical workshop on secure key generation using [Keyfork](https://git.distru
 - [Workshop slides - TBA]
 
 ## Notes
-- Bring a second USB drive for storing generated keys
+- Bring a second SD Card or USB drive for storing generated keys
